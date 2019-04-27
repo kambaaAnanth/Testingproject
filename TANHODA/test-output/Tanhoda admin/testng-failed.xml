@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Tanhoda admin]">
+  <test name="Loginsuccessful">
+    <classes>
+      <class name="Kam.tanhoda.admin.Verify_login_successful"/>
+    </classes>
+  </test> <!-- Loginsuccessful -->
+  <test name="Loginunsuccessful with invalid password">
+    <classes>
+      <class name="Kam.tanhoda.admin.Verify_login_with_invalidpassword"/>
+    </classes>
+  </test> <!-- Loginunsuccessful with invalid password -->
+  <test name="Loginunsuccessful with invalid username">
+    <classes>
+      <class name="Kam.tanhoda.admin.Verify_login_with_invalidusername"/>
+    </classes>
+  </test> <!-- Loginunsuccessful with invalid username -->
+</suite> <!-- Failed suite [Tanhoda admin] -->
