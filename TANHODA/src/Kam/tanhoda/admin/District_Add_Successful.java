@@ -39,23 +39,7 @@ public void districAdd() throws InterruptedException{
 	District_Add_Function.officeaddress.sendKeys("Tambaram");
 	District_Add_Function.save.click();
 }
-@Test
-public void verifydistricAdd(){
-	Select select=new Select(District_Add_Function.totaldata);
-	select.selectByIndex(3);
-WebElement districttable=driver.findElement(By.xpath("//*[@class='dataTables_wrapper no-footer']/table/tbody/tr/td"));
-List<WebElement> data=districttable.findElements(By.tagName("//td"));
-for (WebElement webElement : data) {
-	String districtname=webElement.getText();
-	if(webElement.equals("CHENNAI")){
-		break;
-		
-	}
-	else{
-		System.out.println("District name not available in the table");
-	}
+
 }
-	
-}
-}	
+
 

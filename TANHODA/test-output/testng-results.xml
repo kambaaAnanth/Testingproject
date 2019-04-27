@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2016693" started-at="2019-04-26T09:19:28Z" finished-at="2019-04-26T09:53:05Z">
+  <suite name="Default suite" duration-ms="15672" started-at="2019-04-27T11:51:41Z" finished-at="2019-04-27T11:51:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2016693" started-at="2019-04-26T09:19:28Z" finished-at="2019-04-26T09:53:05Z">
-      <class name="Kam.tanhoda.admin.District_Add_Successful">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Kam.tanhoda.admin.District_Add_Successful@73035e27]" name="launchbrowser" is-config="true" duration-ms="18132" started-at="2019-04-26T14:49:10Z" finished-at="2019-04-26T14:49:28Z">
+    <test name="Default test" duration-ms="15672" started-at="2019-04-27T11:51:41Z" finished-at="2019-04-27T11:51:57Z">
+      <class name="Kam.tanhoda.admin.Verify_district_Add_Data">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Kam.tanhoda.admin.Verify_district_Add_Data@5f150435]" name="launchbrowser" is-config="true" duration-ms="24564" started-at="2019-04-27T17:21:17Z" finished-at="2019-04-27T17:21:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="districAdd()[pri:0, instance:Kam.tanhoda.admin.District_Add_Successful@73035e27]" name="districAdd" duration-ms="15703" started-at="2019-04-26T14:49:28Z" finished-at="2019-04-26T14:49:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- districAdd -->
-        <test-method status="PASS" signature="verifydistricAdd()[pri:0, instance:Kam.tanhoda.admin.District_Add_Successful@73035e27]" name="verifydistricAdd" duration-ms="2000926" started-at="2019-04-26T14:49:44Z" finished-at="2019-04-26T15:23:05Z">
+        <test-method status="PASS" signature="verifydistricAdd()[pri:0, instance:Kam.tanhoda.admin.Verify_district_Add_Data@5f150435]" name="verifydistricAdd" duration-ms="15639" started-at="2019-04-27T17:21:41Z" finished-at="2019-04-27T17:21:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifydistricAdd -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Kam.tanhoda.admin.District_Add_Successful@73035e27]" name="teardown" is-config="true" duration-ms="1" started-at="2019-04-26T15:23:05Z" finished-at="2019-04-26T15:23:05Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Kam.tanhoda.admin.Verify_district_Add_Data@5f150435]" name="teardown" is-config="true" duration-ms="1" started-at="2019-04-27T17:21:57Z" finished-at="2019-04-27T17:21:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Kam.tanhoda.admin.District_Add_Successful -->
+      </class> <!-- Kam.tanhoda.admin.Verify_district_Add_Data -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
