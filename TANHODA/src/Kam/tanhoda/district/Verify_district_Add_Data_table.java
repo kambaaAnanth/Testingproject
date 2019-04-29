@@ -1,26 +1,24 @@
-package Kam.tanhoda.admin;
+package Kam.tanhoda.district;
 
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Common_Function_ADMIN.Common_Loginsuccessful_Function;
-import Pagefactory_ADMIN.District_Add_Function;
 
-public class Verify_district_Add_Data extends Common_Loginsuccessful_Function{
+
+public class Verify_district_Add_Data_table extends Common_Loginsuccessful_Function{
 	@Test
 	public void verifydistricAdd() throws InterruptedException {
-		PageFactory.initElements(driver,District_Add_Function.class);
-		District_Add_Function.username.sendKeys(property.getProperty("username"));
-		District_Add_Function.password.sendKeys(property.getProperty("password"));
-		District_Add_Function.signinbutton.click();
+		PageFactory.initElements(driver,Pagefactory.district.District_Add_Function.class);
+		Pagefactory.district.District_Add_Function.username.sendKeys(property.getProperty("username"));
+		Pagefactory.district.District_Add_Function.password.sendKeys(property.getProperty("password"));
+		Pagefactory.district.District_Add_Function.signinbutton.click();
 		String title=driver.getTitle();
 		System.out.println("The title name is : " +title );
 		Assert.assertEquals(title, "TANHODA");
@@ -45,19 +43,4 @@ public class Verify_district_Add_Data extends Common_Loginsuccessful_Function{
 			}
 		}
 	
-			
-			
-				
-		
-	
-
-				
-			
-	
-		
-			
-		
-	
-	
-
 

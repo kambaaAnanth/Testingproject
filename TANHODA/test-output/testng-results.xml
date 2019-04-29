@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15672" started-at="2019-04-27T11:51:41Z" finished-at="2019-04-27T11:51:57Z">
+  <suite name="Default suite" duration-ms="17192" started-at="2019-04-29T09:45:49Z" finished-at="2019-04-29T09:46:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15672" started-at="2019-04-27T11:51:41Z" finished-at="2019-04-27T11:51:57Z">
-      <class name="Kam.tanhoda.admin.Verify_district_Add_Data">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Kam.tanhoda.admin.Verify_district_Add_Data@5f150435]" name="launchbrowser" is-config="true" duration-ms="24564" started-at="2019-04-27T17:21:17Z" finished-at="2019-04-27T17:21:41Z">
+    <test name="Default test" duration-ms="17192" started-at="2019-04-29T09:45:49Z" finished-at="2019-04-29T09:46:06Z">
+      <class name="Kam.tanhoda.block.Verify_Activebutton">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Kam.tanhoda.block.Verify_Activebutton@5f150435]" name="launchbrowser" is-config="true" duration-ms="28866" started-at="2019-04-29T15:15:20Z" finished-at="2019-04-29T15:15:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="verifydistricAdd()[pri:0, instance:Kam.tanhoda.admin.Verify_district_Add_Data@5f150435]" name="verifydistricAdd" duration-ms="15639" started-at="2019-04-27T17:21:41Z" finished-at="2019-04-27T17:21:57Z">
+        <test-method status="PASS" signature="Blockedit()[pri:0, instance:Kam.tanhoda.block.Verify_Activebutton@5f150435]" name="Blockedit" duration-ms="17153" started-at="2019-04-29T15:15:49Z" finished-at="2019-04-29T15:16:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifydistricAdd -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Kam.tanhoda.admin.Verify_district_Add_Data@5f150435]" name="teardown" is-config="true" duration-ms="1" started-at="2019-04-27T17:21:57Z" finished-at="2019-04-27T17:21:57Z">
+        </test-method> <!-- Blockedit -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Kam.tanhoda.block.Verify_Activebutton@5f150435]" name="teardown" is-config="true" duration-ms="1" started-at="2019-04-29T15:16:07Z" finished-at="2019-04-29T15:16:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Kam.tanhoda.admin.Verify_district_Add_Data -->
+      </class> <!-- Kam.tanhoda.block.Verify_Activebutton -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

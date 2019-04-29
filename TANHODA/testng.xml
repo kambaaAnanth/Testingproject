@@ -1,22 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Tanhoda admin">
+<suite name="Tanhoda admin" verbose="2" parallel="methods"
+	Thread-count="1">
 	<test name="Loginsuccessful">
 		<classes>
-			<class name="Kam.tanhoda.admin.Verify_login_successful">
+			<class name="Kam.tanhoda.login.Verify_login_successful">
 			</class>
 		</classes>
 	</test>
 	<test name="Loginunsuccessful with invalid password">
 		<classes>
-			<class name="Kam.tanhoda.admin.Verify_login_with_invalidpassword">
+			<class name="Kam.tanhoda.login.Verify_login_with_invalidpassword">
 			</class>
 		</classes>
 	</test>
 	<test name="Loginunsuccessful with invalid username">
 		<classes>
-			<class
-				name="Kam.tanhoda.admin.Verify_login_with_invalidusername">
+			<class name="Kam.tanhoda.login.Verify_login_with_invalidusername">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify the district name add in data table">
+		<classes>
+			<class name="Kam.tanhoda.Verify_district_Add_Data_table">
+			</class>
+		</classes>
+	</test>
+	<test name="district add functionality">
+		<classes>
+			<class name="Kam.tanhoda.district.District_Add_Successful">
+			</class>
+		</classes>
+	</test>
+	<test name="verify the district name already exist">
+		<classes>
+			<class name="Kam.tanhoda.district.Verify_district_add_alreadyexistname">
+			</class>
+		</classes>
+	</test>
+	<test name="district edit functionality">
+		<classes>
+			<class name="Kam.tanhoda.district.Verify_successful_edit_districtname">
+			</class>
+		</classes>
+	</test>
+	<test name=" edit already exist district name">
+		<classes>
+			<class name="Kam.tanhoda.district.Verify_district_edit_alreadyexistname">
+			</class>
+		</classes>
+	</test>
+	<test name="Deactive button">
+		<classes>
+			<class name="Kam.tanhoda.district.Verify_DeActivatebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="Active button">
+		<classes>
+			<class name="Kam.tanhoda.district.Verify_Activebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="block add successful">
+		<classes>
+			<class name=" Kam.tanhoda.block.Block_Add_Successful">
+			</class>
+		</classes>
+	</test>
+	<test name="verify block added data in data table">
+		<classes>
+			<class name=" Kam.tanhoda.block.Verify_block_Add_Data_table">
+			</class>
+		</classes>
+	</test>
+	<test name="verify already exist block name">
+		<classes>
+			<class name=" Kam.tanhoda.block.Verify_block_add_alreadyexistname">
+			</class>
+		</classes>
+	</test>
+	<test name="successful edit block name">
+		<classes>
+			<class name=" Kam.tanhoda.block.Verify_successful_edit_blockname">
+			</class>
+		</classes>
+	</test>
+	<test name=" edit already exist block name">
+		<classes>
+			<class name=" Kam.tanhoda.block.Verify_block_edit_alreadyexistname">
+			</class>
+		</classes>
+	</test>
+	<test name=" Deactive">
+		<classes>
+			<class name=" Kam.tanhoda.block.Verify_DeActivatebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="Active">
+		<classes>
+			<class name=" Kam.tanhoda.block.Verify_Activebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="village add successful">
+		<classes>
+			<class name=" Kam.tanhoda.Village.Village_Add_Successfull">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify village added in data table ">
+		<classes>
+			<class name=" Kam.tanhoda.Village.Verify_Village_Add_Data_table">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify village added alreadyexist">
+		<classes>
+			<class name=" Kam.tanhoda.Village.Verify_village_add_alreadyexistname">
+			</class>
+		</classes>
+	</test>
+	<test name=" village edit successful">
+		<classes>
+			<class name=" Kam.tanhoda.Village.Verify_successful_edit_villagename">
+			</class>
+		</classes>
+	</test>
+	<test name=" Edit already exist village name">
+		<classes>
+			<class name=" Kam.tanhoda.Village.Verify_village_edit_alreadyexistname">
+			</class>
+		</classes>
+	</test>
+	<test name="deactivate">
+		<classes>
+			<class name=" Kam.tanhoda.Village.Verify_DeActivatebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="Activate">
+		<classes>
+			<class name=" Kam.tanhoda.Village.Verify_Activebutton">
 			</class>
 		</classes>
 	</test>
