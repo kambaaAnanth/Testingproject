@@ -210,13 +210,62 @@
 	</test>
 	<test name="Farmermanagement Edit Successful">
 		<classes>
-			<class name="Kam.tanhoda.Farmermanagement.Farmermanagement_edit_successful">
+			<class
+				name="Kam.tanhoda.Farmermanagement.Farmermanagement_edit_successful">
 			</class>
 		</classes>
 	</test>
 	<test name="Farmermanagement View Function">
 		<classes>
 			<class name="Kam.tanhoda.Farmermanagement.Farmermanagement_view_Function">
+			</class>
+		</classes>
+	</test>
+	<test name="Add scheme successful">
+		<classes>
+			<class name="Kam.tanhoda.scheme.Scheme_add_successful">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify scheme Add in data table">
+		<classes>
+			<class name="Kam.tanhoda.Verify_scheme_add_data_table">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify scheme Added already exist name">
+		<classes>
+			<class name="Kam.tanhoda.Scheme_Add_alreadyexist">
+			</class>
+		</classes>
+	</test>
+	<test name="View function">
+		<classes>
+			<class name="Kam.tanhoda.Scheme_viewbutton">
+			</class>
+		</classes>
+	</test>
+	<test name="edit scheme successful">
+		<classes>
+			<class name="Kam.tanhoda.Scheme_edit_successful">
+			</class>
+		</classes>
+	</test>
+	<test name="edit scheme already exist">
+		<classes>
+			<class name="Kam.tanhoda.Scheme_edit_already_exist">
+			</class>
+		</classes>
+	</test>
+	<test name="Deactive button">
+		<classes>
+			<class name="Kam.tanhoda.Scheme_Deactivebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="Active button">
+		<classes>
+			<class name="Kam.tanhoda.Scheme_Activebutton">
 			</class>
 		</classes>
 	</test>
