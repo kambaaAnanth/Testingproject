@@ -146,4 +146,78 @@
 			</class>
 		</classes>
 	</test>
+	<test name="usermanagement Add Successful">
+		<classes>
+			<class name="Kam.tanhoda.usermanagement.Usermanagement_add_successsful">
+			</class>
+		</classes>
+	</test>
+	<test name="Veify usermanagement Added data in data table">
+		<classes>
+			<class
+				name="Kam.tanhoda.usermanagement.Verify_usermanagement_add_Data_Table">
+			</class>
+		</classes>
+	</test>
+	<test name="Add Already Exist usermanagement ">
+		<classes>
+			<class name="Kam.tanhoda.usermanagement.Usermanagement_add_alreadyexist">
+			</class>
+		</classes>
+	</test>
+	<test name="usermanagement view function ">
+		<classes>
+			<class name="Kam.tanhoda.usermanagement.Usermanagement_view_function">
+			</class>
+		</classes>
+	</test>
+	<test name="usermanagement edit Successful ">
+		<classes>
+			<class name="Kam.tanhoda.usermanagement.Usermanagement_edit_successful">
+			</class>
+		</classes>
+	</test>
+	<test name="Edit Already exist usermanagement">
+		<classes>
+			<class
+				name="Kam.tanhoda.usermanagement.Usermanagement_edit_alreadyexistname">
+			</class>
+		</classes>
+	</test>
+	<test name="usermanagement Deactive">
+		<classes>
+			<class name="Kam.tanhoda.usermanagement.Usermanagement_Deactivebuttton">
+			</class>
+		</classes>
+	</test>
+	<test name="usermanagement Active">
+		<classes>
+			<class name="Kam.tanhoda.usermanagement.Usermanagement_Active">
+			</class>
+		</classes>
+	</test>
+	<test name="Farmermanagement Active">
+		<classes>
+			<class name="Kam.tanhoda.Farmermanagement.Farmermanagement_Active">
+			</class>
+		</classes>
+	</test>
+	<test name="Farmermanagement Deactive">
+		<classes>
+			<class name="Kam.tanhoda.Farmermanagement.Farmermanagement_Deactive">
+			</class>
+		</classes>
+	</test>
+	<test name="Farmermanagement Edit Successful">
+		<classes>
+			<class name="Kam.tanhoda.Farmermanagement.Farmermanagement_edit_successful">
+			</class>
+		</classes>
+	</test>
+	<test name="Farmermanagement View Function">
+		<classes>
+			<class name="Kam.tanhoda.Farmermanagement.Farmermanagement_view_Function">
+			</class>
+		</classes>
+	</test>
 </suite>
