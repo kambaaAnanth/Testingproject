@@ -3,18 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="Kam.tanhoda.scheme.Scheme_add_successful"/>
+      <class name="Kam.tanhoda.subcomponent.Subcomponent_add_successful"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="Kam.tanhoda.scheme.Scheme_add_successful">
-        <methods>
-          <include name="launchbrowser"/>
-          <include name="teardown"/>
-          <include name="BlockAddsuccessful"/>
-        </methods>
-      </class> <!-- Kam.tanhoda.scheme.Scheme_add_successful -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -269,4 +269,142 @@
 			</class>
 		</classes>
 	</test>
+	<test name="Component add successful">
+		<classes>
+			<class name="Kam.tanhoda.component.Component_add_function">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Component add in data table">
+		<classes>
+			<class name="Kam.tanhoda.component.Verify_component_Add_data_table">
+			</class>
+		</classes>
+	</test>
+	<test name="added Component already exist">
+		<classes>
+			<class name="Kam.tanhoda.component.Component_add_alreadyexist">
+			</class>
+		</classes>
+	</test>
+	<test name="edited Component added successful">
+		<classes>
+			<class name="Kam.tanhoda.component.Component_edit_successful">
+			</class>
+		</classes>
+	</test>
+	<test name="edited Component already exist">
+		<classes>
+			<class name="Kam.tanhoda.component.Component_edit_alreadyexist">
+			</class>
+		</classes>
+	</test>
+	<test name="Component deactivebutton">
+		<classes>
+			<class name="Kam.tanhoda.component.Component_Deactivebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="Component Activebutton">
+		<classes>
+			<class name="Kam.tanhoda.component.Component_activebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="Subcomponent Add successful">
+		<classes>
+			<class name="Kam.tanhoda.subcomponent.Subcomponent_add_successful">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Subcomponent Add in data table">
+		<classes>
+			<class name="Kam.tanhoda.subcomponent.Verify_subcomponent_add_data_table">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Subcomponent Added already exist">
+		<classes>
+			<class name="Kam.tanhoda.subcomponent.Subcomponent_add_alreadyexist">
+			</class>
+		</classes>
+	</test>
+	<test name="Subcomponent view function">
+		<classes>
+			<class name="Kam.tanhoda.subcomponent.Subcomponent_viewfunction">
+			</class>
+		</classes>
+	</test>
+	<test name="Subcomponent edit successful">
+		<classes>
+			<class name="Kam.tanhoda.subcomponent.Subcomponent_edit_successful">
+			</class>
+		</classes>
+	</test>
+	<test name="Subcomponent edit already exist">
+		<classes>
+			<class name="Kam.tanhoda.subcomponent.Subcomponent_edit_alreadyexist">
+			</class>
+		</classes>
+	</test>
+	<test name="Subcomponent Deactivebutton">
+		<classes>
+			<class name="Kam.tanhoda.subcomponent.Subcomponent_Deactivebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="Subcomponent Activebutton">
+		<classes>
+			<class name="Kam.tanhoda.subcomponent.Subcomponent_activebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="Proposed crop add successful ">
+		<classes>
+			<class name=" Kam.tanhoda.proposedcrop.proposedcrop_add_successful">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Proposed crop added successful in data table">
+		<classes>
+			<class name=" Kam.tanhoda.proposedcrop.Verify_proposedcrop_add_data_table">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Proposed crop added already exist">
+		<classes>
+			<class name=" Kam.tanhoda.proposedcrop.Proposedcrop_add_altreadyexist">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Proposed crop view function">
+		<classes>
+			<class name=" Kam.tanhoda.proposedcrop.Proposedcrop_viewfunction">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Proposed crop edit successful">
+		<classes>
+			<class name=" Kam.tanhoda.proposedcrop.Proposedcrop_edit_successful">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Proposed crop edited already successful">
+		<classes>
+			<class name=" Kam.tanhoda.proposedcrop.Proposed_crop_edit_alreadyexist">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Proposed crop deactive button">
+		<classes>
+			<class name=" Kam.tanhoda.proposedcrop.Proposedcrop_Deactivebutton">
+			</class>
+		</classes>
+	</test>
+	<test name="Verify Proposed crop Active button">
+		<classes>
+			<class name=" Kam.tanhoda.proposedcrop.proposedcrop_Activebutton">
+			</class>
+		</classes>
+	</test>
 </suite>
